@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Upload</title>
+  </head>
+  <body>
+    <div id="container">
+      <header>
+        <h1>Upload Files</h1>
+      </header>
+      <section id="contain-form">
+        <form>
+          <div id="uno">
+            <div>
+              <p class="p">Auntentication key</p>
+              <input type="password" placeholder="*****" class="cursor" />
+            </div>
+            <div>
+              <p class="p">Title</p>
+              <input type="text" placeholder="You suck" class="cursor" />
+            </div>
+
+            <div>
+              <p class="p">Description</p>
+              <textarea
+                name="Text1"
+                placeholder="Description"
+                cols="40"
+                rows="8"
+
+              ></textarea>
+            </div>
+          </div>
+          <div id="dos">
+            <div>
+              <p class="p">Tags</p>
+              <input type="text" placeholder="#something"class="cursor" />
+            </div>
+            <div>
+              <p class="p">Date</p>
+              <input type="text" class="cursor" placeholder="MM/DD/YYYY"
+              onfocus="(this.type='date')">             </div>
+            <div>
+              <p class="p"> Software</p>
+              <select id="cars" name="cars" >
+                <option value="sketch">Sketch</option>
+                <option value="figma">Figma</option>
+                <option value="adobe xd">Adobe XD</option>
+              </select>
+            </div>
+            <div id="wrapper-u">
+              <div class="left">
+                <p class="p">Thumbnail Image</p>
+                <label for="file">Upload File</label>
+                <input type="file" id="file">                
+                <p class="p">No file uploaded</p>
+            </div>
+            <div class="rai">
+              <p class="p">Source File</p>
+              <label for="so">Upload File</label>
+              <input type="file" id="so">
+              <p class="p">No file uploaded</p>
+            </div>
+          </div>
+        </form>
+       
+      </section>
+      <div class="boton">
+        <button id="btn">Submit</button>
+      </div>
+    </div>
+  </body>
+</html>
